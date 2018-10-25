@@ -31,7 +31,7 @@ class Solution(object):
         :rtype: int
         """
         # if not root:
-        #     return 0
+        #     return 0 此处超时，计算 self.minDepth 花了大量的时间
         # if self.minDepth(root.left) == 0 or self.minDepth(root.right) == 0:
         #     return self.minDepth(root.left) + self.minDepth(root.right) + 1
         # return min(self.minDepth(root.left), self.minDepth(root.right)) + 1
