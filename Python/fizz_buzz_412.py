@@ -35,14 +35,14 @@ class Solution(object):
         :type n: int
         :rtype: List[str]
         """
-        result=[]
+        result = []
         for i in range(1, n+1):
-            tem=''
-            if i%3==0:
-                tem+='Fizz'
-            if i%5==0:
-                tem+='Buzz'
-            if tem=='':
-                tem+=str(i)
+            tem = ''
+            if i%3 == 0:
+                tem += 'Fizz'
+            if i%5 == 0:
+                tem += 'Buzz'
+            if tem == '':
+                tem += str(i)
             result.append(tem)
         return result
